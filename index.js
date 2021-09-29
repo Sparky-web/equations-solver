@@ -5,7 +5,7 @@ const solve = (a = 10, b = 200, c = 20, d = 15, e = 3) => {
 
     // returns array
     const solved = nerdamer.solve(equation, "x")
-    const arr = solved.symbol.elements.map(e => BigInt(e.multiplier.num.toString()))
+    const arr = solved.symbol.elements.map(e => (e.multiplier.num / e.multiplier.den))
 
     return arr
 }
