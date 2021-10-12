@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "algebra.js": "^0.2.6",
+    "big.js": "^6.1.1",
     "nerdamer": "^1.1.12"
   }
 }
